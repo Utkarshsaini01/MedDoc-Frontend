@@ -1,0 +1,66 @@
+#document-type,
+#file-upload {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+/*dropdown menu bgcolor*/
+select {
+  background-color: white;
+}
+
+/*button*/
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Additional style for button hover state */
+button:hover {
+  background-color: #f2f2f2; /* Set a slightly darker color when the button is hovered */
+}
+
+.upload-section {
+  margin-top: 20px;
+}
+.file-upload {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+
+  /* Additional styles for the submit button */
+}
+.submit-button {
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles for the uploaded documents list */
+#document-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#document-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
